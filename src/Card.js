@@ -1,17 +1,18 @@
 import React ,{Component} from 'react';
 import ReactDOM from 'react-dom';
+import 'tachyons';
 
 
- const Card =()=>{
+ const Card =(props)=>{
     
     
     
     return ( <>
-        <div> 
-        <img src="https://robohash.org/test?2000*2000" alt="Robots"/>
-        <div>
-            <h2> Name</h2>
-            <p> email</p>
+        <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5' > 
+        <img src={`https://robohash.org/ ${props.id}`} alt="Robots" width="250px"/>
+        <div className=''>
+            <h2> {props.name}</h2>
+            <p> {props.email}</p>
         </div>
         </div>
 
