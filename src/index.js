@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import CardArray from './CardArray';
+import App from './App.js';
 
-ReactDOM.render(<CardArray/>,document.getElementById('root'));
+ReactDOM.render(<App/>,document.getElementById('root'));
 serviceWorker.unregister();
