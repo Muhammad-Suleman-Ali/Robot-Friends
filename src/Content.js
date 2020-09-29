@@ -13,5 +13,4 @@ export const Content=[
     {id:12,name:'umer',email:'umer@gmail.com'},
     {id:13,name:'nadeem',email:'nadeem@gmail.com'},
     {id:14,name:'ali',email:'ali@gmail.com'},
-
 ]
