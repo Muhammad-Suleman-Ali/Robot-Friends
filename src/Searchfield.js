@@ -6,10 +6,11 @@ export default class Searchfield extends Component{
     render(){
         return (<>
            <input 
-              className='b--green'
+              className='b--green pa3 ma1'
               onChange={this.props.onchange}
               type="Search" 
-              placeholder='search'
+              placeholder='Search Robots'
+              
            />
 </>) 
 }}

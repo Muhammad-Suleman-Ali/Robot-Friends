@@ -4,6 +4,7 @@ import Searchfield from './Searchfield.js';
 import 'tachyons'
 import {Content} from './Content';
 import Scroll from './Scroll';
+import './index.css'
 
 
 export default class App extends Component{
